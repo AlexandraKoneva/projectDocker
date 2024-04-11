@@ -87,6 +87,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GoToCatalogTest.goToCatalog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projectForCyprus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.GoToCatalogTest" />
+      <option name="METHOD_NAME" value="goToCatalog" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projectForCyprus" />
       <extension name="coverage">
@@ -132,14 +148,16 @@
     <list>
       <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="JUnit.AddingItemToCartTest.addingItemToCart" />
+      <item itemvalue="JUnit.GoToCatalogTest.goToCatalog" />
       <item itemvalue="JUnit.SearchTest.searchItem" />
       <item itemvalue="JUnit.LoginTest.login" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SearchTest.searchItem" />
-        <item itemvalue="JUnit.AddingItemToCartTest.addingItemToCart" />
         <item itemvalue="JUnit.LoginTest.login" />
+        <item itemvalue="JUnit.GoToCatalogTest.goToCatalog" />
+        <item itemvalue="JUnit.AddingItemToCartTest.addingItemToCart" />
       </list>
     </recent_temporary>
   </component>

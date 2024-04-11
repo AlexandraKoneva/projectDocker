@@ -15,7 +15,7 @@ public class DigmaPage extends BasePage {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "//h1[@class='mb-md-5 mb-4'")
+    @FindBy(xpath = "//h1[@class='mb-md-5 mb-4']")
     private WebElement header;
 
     @FindBy(xpath = "//button[contains(@class,'rs-to-cart')]")
