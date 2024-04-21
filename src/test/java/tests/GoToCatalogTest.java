@@ -8,5 +8,6 @@ public class GoToCatalogTest extends BaseTest {
     public void goToCatalog() {
         mainPage.goToCatalog("Электроника","Планшеты","Digma");
         digmaPage.pageIsOpened("Digma");
+        System.out.println("Тест goToCatalog успешно выполнен");
     }
 }

@@ -8,5 +8,6 @@ public class LoginTest extends BaseTest {
     public void login() {
         mainPage.logIn("qwerty123@gmail.com", "1234");
         mainPage.checkLogIn();
+        System.out.println("Тест login успешно выполнен");
     }
 }

@@ -12,5 +12,6 @@ public class AddingItemToCartTest extends BaseTest {
         cartPage.checkInfoAboutItem("Планшет Digma iDx10 8Gb", "9 680 р.");
         cartPage.deleteItem();
         mainPage.checkMainPageIsDisplayed();
+        System.out.println("Тест addingItemToCart успешно выполнен");
     }
 }
